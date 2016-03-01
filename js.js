@@ -60,10 +60,12 @@ function populatehtml(operation){
 // this if else statement will return a statement if no
 // value is entered
 
-    if (run1 == "" || run2 == ""){
+    if (run1 == "" || run2 == ""){ 
 
-      document.getElementById('result').innerHTML="You must input numbers to calculate"
-    } else {
+      alert("You must input numbers to calculate");
+
+    } else  { 
+      
 
     }
 }
